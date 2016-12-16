@@ -1,11 +1,12 @@
-import React, { Component } from 'react';
-import {BrowserRouter, Match, Link} from 'react-router'
-import {Col, Row} from 'antd'
-import HomeContainer from './modules/Home'
+import React, { Component }           from 'react';
+import {BrowserRouter, Match}         from 'react-router'
+import {Col, Row}                     from 'antd'
+import './styles.less'
 
-import Header   from './layout/Header'
-import Sidebar  from './layout/Sidebar'
-import styles   from './styles.less'
+import HomeContainer  from './modules/Home'
+import Header         from './layout/Header'
+import Sidebar        from './layout/Sidebar'
+
 const Router = () => {
   return (
     <BrowserRouter>
