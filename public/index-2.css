@@ -2933,7 +2933,6 @@ footer ul li > div {
   ul#nav li {
     line-height: 60px;
     height: 60px;
-    padding: 0 !important;
     border: 0;
   }
   ul#nav li a {
