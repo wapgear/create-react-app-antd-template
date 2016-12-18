@@ -1,0 +1,8 @@
+.sidebar__userblock {
+  background: #daefff;
+  padding: 10px 20px;
+  color: black;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}

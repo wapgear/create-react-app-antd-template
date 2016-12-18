@@ -1,5 +1,6 @@
 import React from 'react'
 import {Col, Menu, Icon} from 'antd'
+import './sidebar.css'
 
 export default class Sidebar extends React.Component {
 
@@ -34,6 +35,9 @@ export default class Sidebar extends React.Component {
   render() {
     return (
       <Col xs={24} sm={24} md={6} lg={4}>
+        <div className="sidebar__userblock">
+          example
+        </div>
       <Menu
         mode="inline"
         openKeys={this.state.openKeys}
