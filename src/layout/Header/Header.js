@@ -65,13 +65,13 @@ export default class Header extends React.Component {
 
 const HeaderMenu = props => (
   <Menu {...props}>
-    <Menu.Item key="projects">
+    <Menu.Item key="dashboard/projects">
       <Icon type="appstore-o" /> Projects
     </Menu.Item>
-    <Menu.Item key="logs">
+    <Menu.Item key="dashboard/logs">
       <Icon type="code" /> Logs
     </Menu.Item>
-    <Menu.Item key="help">
+    <Menu.Item key="dashboard/help">
       <Icon type="question" /> Help
     </Menu.Item>
   </Menu>
