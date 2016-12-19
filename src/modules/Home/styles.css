@@ -1,0 +1,35 @@
+.homeModule .banner-text-wrapper {
+  width: 100%;
+  top: 30%;
+  left: auto;
+  text-align: center;
+  background: rgba(0,0,0,0.5);
+}
+
+.homeModule .banner-text-wrapper h2 {
+  font-size: 5em;
+  font-weight: normal;
+  font-family: 'Raleway', 'Hiragino Sans GB';
+  white-space: nowrap;
+}
+
+.homeModule .banner-text-wrapper > p {
+  font-size: 3em;
+  margin: -35px auto 24px;
+}
+
+.homeModule .banner-text-wrapper .start-button {
+  margin-bottom: 24px;
+  text-align: center;
+}
+
+.homeModule .banner-text-wrapper button {
+  margin-right: 16px;
+  color: white;
+  font-size: 1.2em;
+  border: 2px solid white;
+}
+
+.homeModule .specialText {
+  color: #FF3171;
+}
